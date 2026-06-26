@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="64"
+     height="64"
+     viewBox="0 0 64 64"
+     fill="none">
+
+    <!-- SSD Body -->
+    <rect
+        x="10"
+        y="18"
+        width="44"
+        height="28"
+        rx="4"
+        stroke="#A020FF"
+        stroke-width="3"
+        fill="none"/>
+
+    <!-- NVMe Label -->
+    <text
+        x="32"
+        y="35"
+        text-anchor="middle"
+        font-size="8"
+        font-family="Arial"
+        fill="#A020FF"
+        font-weight="bold">
+        NVMe
+    </text>
+
+    <!-- Left Pins -->
+    <line x1="10" y1="22" x2="6" y2="22" stroke="#A020FF" stroke-width="2"/>
+    <line x1="10" y1="28" x2="6" y2="28" stroke="#A020FF" stroke-width="2"/>
+    <line x1="10" y1="34" x2="6" y2="34" stroke="#A020FF" stroke-width="2"/>
+    <line x1="10" y1="40" x2="6" y2="40" stroke="#A020FF" stroke-width="2"/>
+
+    <!-- Right Pins -->
+    <line x1="54" y1="22" x2="58" y2="22" stroke="#A020FF" stroke-width="2"/>
+    <line x1="54" y1="28" x2="58" y2="28" stroke="#A020FF" stroke-width="2"/>
+    <line x1="54" y1="34" x2="58" y2="34" stroke="#A020FF" stroke-width="2"/>
+    <line x1="54" y1="40" x2="58" y2="40" stroke="#A020FF" stroke-width="2"/>
+
+    <!-- Speed Lines -->
+    <line x1="20" y1="50" x2="44" y2="50"
+          stroke="#A020FF"
+          stroke-width="2"
+          stroke-linecap="round"/>
+
+    <line x1="24" y1="55" x2="40" y2="55"
+          stroke="#A020FF"
+          stroke-width="2"
+          stroke-linecap="round"/>
+
+</svg>
