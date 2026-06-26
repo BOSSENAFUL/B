@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="64"
+     height="64"
+     viewBox="0 0 64 64"
+     fill="none">
+
+    <!-- Top -->
+    <ellipse
+        cx="32"
+        cy="14"
+        rx="16"
+        ry="6"
+        stroke="#A020FF"
+        stroke-width="3"
+        fill="none"/>
+
+    <!-- Body -->
+    <path
+        d="M16 14V26C16 29.5 23.2 32 32 32C40.8 32 48 29.5 48 26V14"
+        stroke="#A020FF"
+        stroke-width="3"
+        fill="none"/>
+
+    <path
+        d="M16 26V38C16 41.5 23.2 44 32 44C40.8 44 48 41.5 48 38V26"
+        stroke="#A020FF"
+        stroke-width="3"
+        fill="none"/>
+
+    <path
+        d="M16 38V50C16 53.5 23.2 56 32 56C40.8 56 48 53.5 48 50V38"
+        stroke="#A020FF"
+        stroke-width="3"
+        fill="none"/>
+
+    <!-- Center Glow -->
+    <circle
+        cx="32"
+        cy="35"
+        r="3"
+        fill="#A020FF"/>
+
+</svg>
