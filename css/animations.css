@@ -1,0 +1,103 @@
+/* ===========================
+   VPS CyberVault Animations
+=========================== */
+
+/* Fade In */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Floating Effect */
+@keyframes floating {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+/* Glow Animation */
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 5px #a020ff;
+    }
+    50% {
+        box-shadow: 0 0 25px #a020ff;
+    }
+    100% {
+        box-shadow: 0 0 5px #a020ff;
+    }
+}
+
+/* Pulse Animation */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.03);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Rotation */
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Hero Section */
+.hero-left {
+    animation: fadeIn 1s ease;
+}
+
+.hero-right {
+    animation: floating 5s ease-in-out infinite;
+}
+
+/* Cards */
+.card {
+    animation: fadeIn 1s ease;
+}
+
+.card:hover {
+    animation: glow 1.2s infinite;
+}
+
+/* Pricing */
+.plan:hover {
+    animation: pulse 1s infinite;
+}
+
+/* Dashboard */
+.dashboard-box {
+    animation: fadeIn 1.2s ease;
+}
+
+/* Logo */
+.logo span {
+    animation: glow 2s infinite;
+}
+
+/* Buttons */
+.hero-buttons button:hover,
+.buttons button:hover {
+    animation: pulse .6s ease;
+}
