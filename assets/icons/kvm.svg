@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="64"
+     height="64"
+     viewBox="0 0 64 64"
+     fill="none">
+
+    <!-- Monitor -->
+    <rect
+        x="10"
+        y="12"
+        width="44"
+        height="28"
+        rx="4"
+        stroke="#A020FF"
+        stroke-width="3"
+        fill="none"/>
+
+    <!-- Screen -->
+    <rect
+        x="16"
+        y="18"
+        width="32"
+        height="16"
+        rx="2"
+        fill="#A020FF"
+        fill-opacity="0.15"
+        stroke="#A020FF"
+        stroke-width="2"/>
+
+    <!-- Stand -->
+    <path
+        d="M32 40V48"
+        stroke="#A020FF"
+        stroke-width="3"
+        stroke-linecap="round"/>
+
+    <path
+        d="M22 52H42"
+        stroke="#A020FF"
+        stroke-width="3"
+        stroke-linecap="round"/>
+
+    <!-- VM Cubes -->
+    <rect
+        x="22"
+        y="22"
+        width="6"
+        height="6"
+        rx="1"
+        fill="#A020FF"/>
+
+    <rect
+        x="30"
+        y="22"
+        width="6"
+        height="6"
+        rx="1"
+        fill="#A020FF"/>
+
+    <rect
+        x="38"
+        y="22"
+        width="6"
+        height="6"
+        rx="1"
+        fill="#A020FF"/>
+
+</svg>
