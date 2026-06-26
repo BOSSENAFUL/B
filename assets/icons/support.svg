@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="64"
+     height="64"
+     viewBox="0 0 64 64"
+     fill="none">
+
+    <!-- Headset -->
+    <path
+        d="M16 32C16 23.2 23.2 16 32 16C40.8 16 48 23.2 48 32"
+        stroke="#A020FF"
+        stroke-width="3"
+        stroke-linecap="round"/>
+
+    <!-- Left Ear -->
+    <rect
+        x="12"
+        y="30"
+        width="8"
+        height="14"
+        rx="3"
+        stroke="#A020FF"
+        stroke-width="3"
+        fill="none"/>
+
+    <!-- Right Ear -->
+    <rect
+        x="44"
+        y="30"
+        width="8"
+        height="14"
+        rx="3"
+        stroke="#A020FF"
+        stroke-width="3"
+        fill="none"/>
+
+    <!-- Microphone -->
+    <path
+        d="M48 44V48C48 52 45 54 41 54H36"
+        stroke="#A020FF"
+        stroke-width="3"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+
+    <!-- Chat Bubble -->
+    <path
+        d="M24 28H40V38H30L26 42V38H24V28Z"
+        stroke="#A020FF"
+        stroke-width="2"
+        fill="none"
+        stroke-linejoin="round"/>
+
+    <!-- Dots -->
+    <circle cx="29" cy="33" r="1.5" fill="#A020FF"/>
+    <circle cx="32" cy="33" r="1.5" fill="#A020FF"/>
+    <circle cx="35" cy="33" r="1.5" fill="#A020FF"/>
+
+</svg>
