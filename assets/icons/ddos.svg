@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="64"
+     height="64"
+     viewBox="0 0 64 64"
+     fill="none">
+
+    <!-- Outer Shield -->
+    <path
+        d="M32 6L50 14V29C50 42 41 52 32 58C23 52 14 42 14 29V14L32 6Z"
+        stroke="#A020FF"
+        stroke-width="3"
+        fill="none"/>
+
+    <!-- Lock -->
+    <rect
+        x="24"
+        y="29"
+        width="16"
+        height="14"
+        rx="2"
+        stroke="#A020FF"
+        stroke-width="3"
+        fill="none"/>
+
+    <path
+        d="M28 29V24C28 20.7 30.7 18 34 18C37.3 18 40 20.7 40 24V29"
+        stroke="#A020FF"
+        stroke-width="3"
+        stroke-linecap="round"/>
+
+    <!-- Check Mark -->
+    <path
+        d="M28 36L31 39L36 33"
+        stroke="#A020FF"
+        stroke-width="3"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+
+</svg>
