@@ -1,0 +1,249 @@
+/* ===========================
+   VPS CyberVault - style.css
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#07070d;
+    color:#fff;
+    overflow-x:hidden;
+}
+
+/* Navbar */
+
+.navbar{
+    width:90%;
+    margin:25px auto;
+    padding:18px 35px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#11111b;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:18px;
+    box-shadow:0 0 35px rgba(170,0,255,.18);
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+}
+
+.logo span{
+    color:#b84dff;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
+
+nav a{
+    color:#fff;
+    text-decoration:none;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#b84dff;
+}
+
+.buttons button{
+    padding:12px 22px;
+    border:none;
+    border-radius:10px;
+    margin-left:10px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.buttons button:first-child{
+    background:transparent;
+    border:1px solid #b84dff;
+    color:#fff;
+}
+
+.buttons button:last-child{
+    background:#9b3dff;
+    color:#fff;
+}
+
+.buttons button:hover{
+    transform:translateY(-3px);
+    box-shadow:0 0 20px #9b3dff;
+}
+
+/* Hero */
+
+.hero{
+    width:90%;
+    margin:80px auto;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:60px;
+    align-items:center;
+}
+
+.hero h1{
+    font-size:65px;
+    line-height:1.1;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:22px;
+    color:#bfbfbf;
+    margin-bottom:30px;
+}
+
+.hero-buttons button{
+    padding:16px 30px;
+    border:none;
+    border-radius:12px;
+    margin-right:15px;
+    cursor:pointer;
+    font-size:17px;
+}
+
+.hero-buttons button:first-child{
+    background:#a020ff;
+    color:white;
+}
+
+.hero-buttons button:last-child{
+    background:transparent;
+    border:1px solid #a020ff;
+    color:white;
+}
+
+.hero-right{
+    height:500px;
+    border-radius:25px;
+    background:linear-gradient(135deg,#2c0d4d,#111);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    box-shadow:0 0 45px rgba(160,32,255,.45);
+}
+
+/* Features */
+
+.features{
+    width:90%;
+    margin:80px auto;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+}
+
+.card{
+    background:#14141f;
+    border:1px solid rgba(255,255,255,.08);
+    padding:40px;
+    text-align:center;
+    border-radius:18px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    border-color:#a020ff;
+    box-shadow:0 0 25px rgba(160,32,255,.4);
+}
+
+/* Stats */
+
+.stats{
+    width:90%;
+    margin:70px auto;
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:20px;
+}
+
+.stats div{
+    background:#11111a;
+    padding:25px;
+    border-radius:15px;
+    text-align:center;
+}
+
+/* Pricing */
+
+.pricing{
+    width:90%;
+    margin:100px auto;
+}
+
+.pricing h2{
+    text-align:center;
+    font-size:45px;
+    margin-bottom:50px;
+}
+
+.pricing-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+}
+
+.plan{
+    background:#151520;
+    padding:45px;
+    border-radius:18px;
+    text-align:center;
+    transition:.3s;
+}
+
+.plan:hover{
+    transform:scale(1.05);
+    box-shadow:0 0 30px rgba(160,32,255,.5);
+}
+
+/* Dashboard */
+
+.dashboard{
+    width:90%;
+    margin:100px auto;
+    text-align:center;
+}
+
+.dashboard h2{
+    font-size:45px;
+    margin-bottom:40px;
+}
+
+.dashboard-box{
+    height:500px;
+    background:#14141f;
+    border-radius:25px;
+    border:1px solid rgba(255,255,255,.08);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#999;
+}
+
+/* Footer */
+
+footer{
+    width:100%;
+    background:#0b0b12;
+    margin-top:120px;
+    padding:60px;
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:30px;
+    border-top:1px solid rgba(255,255,255,.08);
+}
+
+footer div{
+    color:#ccc;
+  }
